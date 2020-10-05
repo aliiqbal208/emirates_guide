@@ -1,0 +1,170 @@
+<div class="container-fluid listBgColor">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="AlphabetSearch_wrap">
+                            <div class="row">
+                                <div class="col-md-7 col-sm-7">
+
+                                    <div class="filter_alphabets">
+
+                                        <ul>
+                                            <li  ng-repeat="item in get_array(26) track by $index" ng-click="filter_item($index)"><a ng-class="{'selected_character':$index==filter_character.index}" href=""> {{indexChar($index)}} </a></li>
+                                            <li ng-click="clear_character()"> <a class="selected_character" href="" ng-if="filter_character.index"> [X] </a> </li>
+                                            <!-- <li > <a href="">Clear Search Character</a> </li> -->
+                                            
+                                        </ul>
+
+                                    </div>
+
+                                </div>
+                                <div class="clearfix clear_screen"></div>
+                                <div class="col-md-5 col-sm-5">
+
+                                    <div class="Filter_SearchArea">
+
+                                        <input type="search" class="searchplace" placeholder="Search Here" ng-model="search.company_name">
+                                        <button><i class="fa fa-search"></i> </button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+<!--End Search Area-->
+
+        <!--listingWrap-->
+<div class="headingList_wrap">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <h1 class="headingList">List of Registered <strong>Businesses</strong></h1>
+
+                    </div>
+                    <div class="col-md-6">
+
+                        <div class="viewList_wrap">
+
+                            <ul>
+                                <li  ng-click="set_list_view(1)"><a class="list_padd li-1_hover active-left" href="business_list.html"><img src="common/img/li-1.png"></a></li>
+                                <li  ng-click="set_list_view(2)"><a class="list_padd" href=""><img src="common/img/li-2.png"></a></li>
+                                <li  ng-click="set_list_view(3)"><a href=""><img src="common/img/li-3.png"></a></li>
+                                <li  ng-click="set_list_view(4)"><a class="no-border map_hover" href=""><i class="fa fa-map-marker"></i> </a></li>
+                            </ul>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+</div>
+        <!--End listingWrap-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-8  animated bounceIn">
+            <a href="#/business_list/{{business.id}}"  dir-paginate="business in active_businesses | itemsPerPage: 3 | startswith:filter_character.character | filter: search">
+                 <div class="listView_container fake_link">
+                    
+                    <div class="col-md-3 col-sm-3 col-xs-3">
+
+                        <div class="image_circle">
+
+                            <img src="common/img/Layer-60.png" ng-if="!business.company_logo_url" />
+                            <img ng-src="{{business.company_logo_url}}"  ng-if="business.company_logo_url" /> 
+                        </div>
+
+                    </div>
+                    <div class="col-md-9 col-sm-9">
+
+                        <h1>{{business.company_name}}</h1>
+                        <p style="min-height: 74x;">{{business.about_company}}</p>
+
+                        <div class="clearfix"></div>
+                        <div class="col-md-7 no-left-padding margin-top-10">
+                            <i class="fa fa-map-marker"></i>
+                            <span>{{business.address}}</span>
+                        </div>
+                        <div class="col-md-3 no-left-padding margin-top-10">
+                            <i class="fa fa-folder-open"></i>
+                            <span>{{company.category_name}}</span>
+                        </div>
+                        <div class="col-md-2 no-left-padding margin-top-10">
+                            <i class="fa fa-star"></i>
+                            <span>4.5</span>
+                        </div>
+
+                    </div>
+
+                </div>
+                </a>
+
+                <dir-pagination-controls></dir-pagination-controls>
+                
+
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+
+                <div class="Category_wrap">
+
+                    <div class="innerWrap">
+
+                        <h1>Categories</h1>
+
+                        <ul>
+                            <li  ng-repeat="category in categories | limitTo: 5"><a href="">{{category.category_name}}</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="innerWrap recentNews-box">
+
+                        <h1>Recent News</h1>
+
+                        <ul>
+
+                            <li>
+                                <p><strong>12-12-2016</strong></p>
+                                <h2>Letiusto gnissimos</h2>
+                                <p>Decusamus tiusto odiodig nis
+                                    simos ducimus qui sint</p>
+                            </li>
+                            <li>
+                                <p><strong>12-12-2016</strong></p>
+                                <h2>Letiusto gnissimos</h2>
+                                <p>Decusamus tiusto odiodig nis
+                                    simos ducimus qui sint</p>
+                            </li>
+
+
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

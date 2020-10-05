@@ -1,0 +1,126 @@
+<div class="container-fluid topHeader" ng-controller="NavbarController">
+
+    <div class="row">
+
+        <div class="col-md-3 no_paddingRight">
+
+            <div class="toggle_btn">
+            <a href="" id="toggle"><span></span></a>
+
+            <div id="menu">
+                <ul>
+                    <li class="hoverable">
+                        <a href="#login" class="fa fa-user fa-2x font-yellow toolable" data-toggle="tooltip" data-placement="right" title="Members Area / Login"> </a>
+                    </li>
+                    <li class="hoverable">
+                        <a href="#business_list" class="fa fa-file-text-o fa-2x font-yellow toolable" data-toggle="tooltip" data-placement="right" title="List your business"> </a>
+                    </li>
+                    <li class="hoverable">
+                        <a href="premium-business.html" class="fa fa-briefcase fa-2x font-yellow toolable" data-toggle="tooltip" data-placement="right" title="Premium Business"> </a>
+                    </li>
+                    <li class="hoverable">
+                        <a href="events.html" class="fa fa-rss fa-2x font-yellow toolable" data-toggle="tooltip" data-placement="right" title="News & Events"> </a>
+                    </li>
+                    <li class="hoverable">
+                        <a href="video_guide.html" class="fa fa-video-camera fa-2x font-yellow toolable" data-toggle="tooltip" data-placement="right" title="Video Guide"> </a>
+                    </li>
+                    <li class="hoverable">
+                        <a href="business_list-4.html" class="fa fa-map-marker fa-2x font-yellow toolable" data-toggle="tooltip" data-placement="right" title="Location Base Business"> </a>
+                    </li>
+                    <li class="hoverable">
+                        <a href="offers.html" class="fa fa-tag fa-2x font-yellow toolable" data-toggle="tooltip" data-placement="right" title="Offers Arena"> </a>
+                    </li>
+                    <li class="hoverable">
+                        <a href="advertise.html" class="fa fa-volume-off fa-2x font-yellow toolable" data-toggle="tooltip" data-placement="right" title="Advertise with us"> </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+            <a href="index.html"> <span class="inner_brandName"> Emirates Guide </span></a>
+        </div>
+
+        <div class="col-md-6">
+
+            <div class="search_area">
+                <div class="col-md-6">
+                    <input type="text" class="topSearchbar" value="Search Business Type Or Name">
+                </div>
+                <div class="col-md-4">
+                    <select class="topSearchbar">
+
+                        <option>City / Emirates</option>
+                        <option>City Name</option>
+                        <option>City Name</option>
+                        <option>City Name</option>
+                        <option>City Name</option>
+                        <option>City Name</option>
+                    </select>
+                </div>
+
+
+                <div class="col-md-2">
+
+                    <div class="search_btn">
+                        <button><i class="fa fa-search topBtnSrch"></i></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 no-padding">
+            <div class="signInBar">
+                <ul>
+                    <li><a href="login.html"> Sign In</a></li>
+                    <li class="no_bg"><a href="packages.html">Register Now</a> </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<script type="text/javascript">
+        var theToggle = document.getElementById('toggle');
+
+        // based on Todd Motto functions
+        // http://toddmotto.com/labs/reusable-js/
+
+        // hasClass
+        function hasClass(elem, className) {
+            return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+        }
+        // addClass
+        function addClass(elem, className) {
+            if (!hasClass(elem, className)) {
+                elem.className += ' ' + className;
+            }
+        }
+        // removeClass
+        function removeClass(elem, className) {
+            var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
+            if (hasClass(elem, className)) {
+                while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
+                    newClass = newClass.replace(' ' + className + ' ', ' ');
+                }
+                elem.className = newClass.replace(/^\s+|\s+$/g, '');
+            }
+        }
+        // toggleClass
+        function toggleClass(elem, className) {
+            var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
+            if (hasClass(elem, className)) {
+                while (newClass.indexOf(" " + className + " ") >= 0 ) {
+                    newClass = newClass.replace( " " + className + " " , " " );
+                }
+                elem.className = newClass.replace(/^\s+|\s+$/g, '');
+            } else {
+                elem.className += ' ' + className;
+            }
+        }
+
+        if(theToggle)
+        theToggle.onclick = function() {
+            toggleClass(this, 'on');
+            return false;
+        }
+    </script>

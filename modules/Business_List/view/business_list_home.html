@@ -1,0 +1,22 @@
+﻿<!-- DevStamp: Created By Junaid Sarwar, Feb. 06, 2017: 3:31AM PKT -->
+<ng-include src="'./common/partials/header.html'"></ng-include>
+
+<ng-include src="'./modules/Business_List/view/business_list_banner.html'"></ng-include>
+
+<!-- INCLUDING UI-VIEW COULD HANDLE THIS SITUATION EVEN EFFIEIENTLY BUT SINCE WE CANT USE NESTED VIEWS IN NG-VIEW, I'LL USE NG-INCLUDE TO GAIN SUCH BEHAVIOUR -->
+
+<div ng-if="active_businesses.length==0" class="text-center fadeInUp">
+    <h3> No Active Business Found. </h3>
+</div>    
+
+
+<span ng-if="active_businesses.length>0">
+<ng-include src="'./modules/Business_List/view/business_list_view_1.html'" ng-if="view_type==1"></ng-include>
+
+<ng-include src="'./modules/Business_List/view/business_list_view_2.html'" ng-if="view_type==2"></ng-include>
+
+<ng-include src="'./modules/Business_List/view/business_list_view_3.html'" ng-if="view_type==3"></ng-include>
+
+
+<ng-include src="'./modules/Business_List/view/business_list_view_4.html'" ng-if="view_type==4"></ng-include>
+</span>

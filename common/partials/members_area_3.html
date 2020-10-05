@@ -1,0 +1,88 @@
+<div class="col-md-9">
+
+                <div class="heading_membersArea">
+                <div class="row">
+                    <div class="col-md-5 no-padding">
+                        <div class="outline"></div>
+                    </div>
+                    <div class="col-md-2">
+                        <h2>About Us</h2>
+                    </div>
+                    <div class="col-md-5 no-padding">
+                        <div class="outline"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réal.</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+            </div>
+
+                    <div class="members_formWrap">
+
+
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Description (English)</label>
+                                    <textarea rows="4" class="form-control" type="text" placeholder="Enter text here" ng-model="about_info.about_company"></textarea>
+                                </div>
+                            </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Establishment Year</label>
+                                <select class="form-control" ng-model="about_info.establishment_year">
+                                    <option ng-repeat="year in [1,2,3,4,5,6,7,8,9,10]" value="{{year+7+2000}}"> {{year+7+2000}} </option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Employees</label>
+                                <select class="form-control"  ng-model="about_info.employees">
+                                <option ng-repeat="option in [1,2,3,4,5,6,7,8]" value="{{(20*($index+1)-20)+1}}-{{option*20}}"> {{(20*($index+1)-20)+1}}-{{option*20}} </option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Company Manager</label>
+                                <input class="form-control" type="text" placeholder="Bruce Morgan" ng-model="about_info.company_manager">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label>Registration Code</label>
+                                <input class="form-control" type="text" placeholder="54843" ng-model="about_info.registration_code">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4"></div>
+
+
+
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <div class="buttons">
+                                    <button class="saveBtn" ng-click="save_progress(3)">Save</button>
+                                    <button class="nxtBtn" ng-click="move_next(4)">Next</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+            </div>

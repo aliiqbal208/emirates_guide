@@ -1,0 +1,54 @@
+<div class="col-md-9">
+
+                <div class="heading_membersArea">
+                <div class="row">
+                    <div class="col-md-5 no-padding">
+                        <div class="outline"></div>
+                    </div>
+                    <div class="col-md-2">
+                        <h2>Location</h2>
+                    </div>
+                    <div class="col-md-5 no-padding">
+                        <div class="outline"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition etIpsum est le faux texte sta</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+            </div>
+
+                    <div class="members_formWrap">
+
+                        <div class="col-md-12">
+
+                            <div class="container-fluid full-width">
+                                <div class="clearfix"></div>
+                                <ng-map center="25.2048,55.2708" zoom="12" on-click="getpos($event)">
+    <marker position="{{latlng}}" title="Drop pin to your location" on-dragend="getpos($event)" 
+        animation="Animation.BOUNCE" animation="DROP" draggable="true"></marker>
+    </ng-map>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <div class="buttons">
+                                    <button class="saveBtn" ng-click="save_progress(5)">Save</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+            </div>

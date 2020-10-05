@@ -1,0 +1,36 @@
+﻿<!-- DevStamp: Created By Junaid Sarwar, Feb. 07, 2017: 12:50AM PKT -->
+<ng-include src="'./common/partials/header.html'"></ng-include>
+
+<div class="container-fluid Grey_areaTop">
+
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <i class="fa fa-user"></i> <h1>Members Area</h1>
+            </div>
+
+
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
+                    <li class="breadcrumb-item active">Members Area</li>
+                </ol>
+            </div>
+
+
+    </div>
+
+<div class="container-fluid no-padding">
+<!-- ANOTHER GOOD OPTION WAS TO USE WIZARD BUT WE CAN USE NG_INCLUDE INSTEAD OF LOADING A FULL MODULE FOR A SMALL MODULAL OPERATION -->
+ <ng-include src="'./common/partials/members_area_sidebar.html'"></ng-include> 
+
+ 	<ng-include class="animated fadeInUp" src="'./common/partials/members_area_1.html'" ng-if="area_progress==1"></ng-include> 
+
+ 	<ng-include class="" src="'./common/partials/members_area_2.html'"  ng-if="area_progress==2"></ng-include> 
+
+ 	<ng-include class="" src="'./common/partials/members_area_3.html'"  ng-if="area_progress==3"></ng-include> 
+
+ 	<ng-include class="" src="'./common/partials/members_area_4.html'"  ng-if="area_progress==4"></ng-include> 
+
+ 	<ng-include class="" src="'./common/partials/members_area_5.html'"  ng-if="area_progress==5"></ng-include> 
+
+
+</div>

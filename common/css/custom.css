@@ -1,0 +1,2282 @@
+/* here you can put your own css to customize and override the theme */
+.disabled {
+    pointer-events:none;
+    opacity:0.6;
+}
+
+.warning{
+	color: red;
+}
+.selected_character{
+	color: red !important;
+    font-weight: bold !important;
+}
+
+.fake_link:hover{
+
+	cursor: pointer;
+}
+
+.logoEg {
+    font-family: Myriad Pro;
+    font-weight: 300;
+    font-size: 36px;
+    color: white;
+}
+
+.navbar {
+    background: #232323 !important;
+    min-height: 80px;
+    color: white;
+}
+
+.applyHeader {
+    margin-top: 15px;
+}
+
+.applyHeader span,
+.breadCrumbEg span {
+    color: #e9ba02
+}
+
+.supscribeSection img {
+    display: block !important;
+}
+
+.breadCrumbEg {
+    margin-top: 15px;
+}
+
+.headerItems {
+    margin-top: 20px;
+}
+
+.fullwidthContainer {
+    padding: 0 !important;
+}
+
+.fondedAfterHeader {
+    background: url(images/bg_founded_section_03.jpg);
+    background-repeat: repeat-x;
+    margin: 0;
+    text-align: center;
+    height: 107px;
+}
+
+.fondedAfterHeader span {
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 38px 0 8px;
+    line-height: 26px;
+    display: inline-block;
+}
+
+.sliderContainer img {
+    width: 100%;
+}
+
+.sliderReviewBox {
+    background: #000000;
+    width: 450px;
+    height: 185px;
+    position: absolute;
+    left: 150px;
+    top: 270px;
+    opacity: 0.5;
+    color: white;
+    padding: 20px;
+    font-family: Myriad Pro;
+}
+
+.sliderReviewBoxTitle {
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.sliderReviewBoxInfo {
+    font-size: 18px;
+    line-height: 0.75;
+}
+
+.sliderReviewBoxTitle span {
+    float: right;
+}
+
+.fa-star-o:before {
+    color: #ffd203;
+}
+
+.values {
+    font-family: Cambria;
+    font-style: italic;
+    margin: 30px -15px;
+}
+
+.values span {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #595959;
+    display: inline-block
+}
+
+.inventoryImageTab {
+    width: 260px !important;
+}
+
+.inventoryMainTab li {
+    float: left;
+    list-style: none;
+}
+
+.inventoryMainTab .bx-prev {
+    display: none
+}
+
+.inventorySec .inventoryMain img {
+    height: 406px !important;
+}
+
+.inventorySec {
+    color: red;
+    background: url(images/bg_inventory_03.jpg);
+}
+
+.aboutSection {
+    background: url(images/about_sec_bg_03.jpg);
+    min-height: 534px;
+    font-family: Century Gothic;
+    color: white;
+    font-size: 16px;
+}
+
+.aboutSection h1 {
+    color: #ffcc00;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.aboutSection h1 span {
+    color: white;
+}
+
+.aboutTabOne {
+    background: #ebbd05;
+    padding: 12px;
+}
+
+.inventorySec .bx-wrapper img {
+    width: 100%;
+    display: block;
+    height: 184px;
+}
+
+.inventorySec .bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 100px;
+    outline: 0;
+    width: 24px;
+    height: 24px;
+    z-index: 9;
+    text-indent: -9999px;
+    border-radius: 50px;
+}
+
+.inventorySec .bx-wrapper .bx-next {
+    left: 1150px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.brandSection img {
+    height: 100px;
+}
+
+.brandsLogo li {
+    width: auto !important;
+    margin-left: 40px;
+    margin-right: 25px !important;
+}
+
+.brandSection {
+    font-family: Century Gothic;
+}
+
+.brandSection h1 {
+    color: #ffcc00;
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.specialsSection {
+    background: #cccccc;
+    min-height: 476px;
+}
+
+.Lorem1_1 {
+    font-weight: bold;
+}
+
+.Lorem1_2 {
+    color: #fe8f01;
+}
+
+.specialsSectionMargin {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.moveUpCustom .specialsSection {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.removerpaddingCustom .col-md-6 {
+    padding-right: 0px !important;
+}
+
+.removerpaddingCustom .col-md-6 .img-responsive {
+    margin-bottom: 0px !important;
+}
+
+.removelpaddingCustom .col-md-6 {
+    padding-left: 0px !important;
+}
+
+.imageFixer {
+    padding-top: 20px;
+}
+
+.removetSpaceCustom .row {
+    margin-bottom: 0px !important;
+}
+
+.removebSpaceCustom .row {
+    margin-top: 0px !important;
+}
+
+.ourServChange .ourServ {
+    background: transparent !important;
+}
+
+.ourServ {
+    background: #496fe9;
+    padding: 5px 10px 10px 10px;
+}
+
+.ourServ h1 {
+    font-size: 30px;
+}
+
+.specialsSection {
+    color: white;
+    font-family: Century Gothic;
+    font-size: 20px;
+    color: white;
+    font-family: Century Gothic;
+    font-size: 13px;
+}
+
+.specialsSection p span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.specialsSection img {
+    margin-bottom: 10px;
+    border: 1px solid #a6a6a6;
+    height: 404px;
+}
+
+.sectionHeading {
+    color: #ffcc00;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left !important;
+    margin-top: 35px;
+}
+
+.sectionHeading span {
+    color: white;
+}
+
+.supscribeSection h1 {
+    color: white;
+    background: #4871ea;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold
+}
+
+.subscribeTab {
+    padding: 30px;
+    font-size: 22px;
+    color: #4e4e4e;
+}
+
+.subscribeTab input {
+    height: 50px;
+    margin-bottom: 18px;
+}
+
+.ourServices {
+    background: url(images/special_section_bg_03.jpg);
+    color: white;
+}
+
+.ourServices h2 {
+    color: white;
+}
+
+.subscribeTab button {
+    background: #a9a9a9;
+    color: white;
+    width: 120px;
+    height: 40px;
+    FONT-SIZE: 20px;
+    float: right;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.ventureBy a {
+    font-family: Century Gothic;
+    font-size: 12px;
+    color: white;
+    font-weight: 300;
+}
+
+.copyright {
+    background: url("images/footer_bg_06.jpg") !important;
+}
+
+@media (max-width: 950px) {
+    .sliderReviewBox {
+        top: 150px;
+    }
+    .breadCrumbEg,
+    .applyHeader {
+        text-align: center !important;
+    }
+    .aboutSectionText {
+        text-align: justify;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 660px) {
+    .sliderReviewBox {
+        left: 20px;
+    }
+    .breadCrumbEg,
+    .applyHeader {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .sliderReviewBox {
+        width: 300px;
+        height: 120px;
+        padding: 10px;
+    }
+    .foundedYear-2 {
+        display: inline;
+    }
+    .foundedLogo {
+        display: none;
+    }
+    .sliderReviewBoxTitle {
+        margin-bottom: 5px;
+    }
+    .sectionHeading {
+        text-align: center !important;
+    }
+    .aboutSection h1,
+    .breadCrumbEg,
+    .applyHeader {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 620px) {
+    .breadCrumbEg,
+    .applyHeader {
+        display: block;
+    }
+}
+
+.inqueryPage {
+    background: url(images/inquery_page_bg_07.jpg);
+    height: 300px;
+    color: white;
+    font-family: Century Gothic;
+    font-size: 16px;
+    text-align: center;
+}
+
+.inqueryPage h2 {
+    color: white;
+    font-family: Century Gothic;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.inqueryPage img {
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 430px) {
+    .inqueryPage {
+        height: 325px;
+    }
+}
+
+.inqueryForm input {
+    height: 44px;
+    border-radius: 8px !important;
+}
+
+.inqueryForm button {
+    width: 100%;
+    height: 44px;
+    font-size: 20px;
+    background: #ebbd05;
+}
+
+@media (max-width: 1235px) {
+    .inqueryPage {
+        background: #252526;
+        height: auto;
+    }
+    .inqueryForm {
+        padding: 25px;
+    }
+    .inqueryForm input {
+        margin-bottom: 20px;
+    }
+}
+
+
+/*construction css*/
+
+.changeColor {
+    position: relative;
+}
+
+.changeColor .fondedAfterHeader {
+    background: #fe8f01;
+}
+
+.changeColor .foundedLogo {
+    border: 2px solid #fe8f01;
+}
+
+.featureIcons {
+    min-height: 65px;
+    text-align: center !important;
+    width: 100%;
+}
+
+.featureIcons img {}
+
+.value_wrap {
+    text-align: center;
+    width: 100%;
+}
+
+.value_wrap span {
+    margin: 0;
+}
+
+@media (min-width: 1200px) {
+    .directory_pages .container {
+        width: 1100px;
+    }
+}
+
+.construction_1 .specialsSection {
+    background: #2b2b2b !important;
+}
+
+.construction_1 .ourServ h1 {
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+.construction_1 .ourServ h3 {
+    margin: 5px 0;
+    font-family: "Open Sans";
+    font-weight: 500;
+}
+
+.construction_1 .ourServ p {
+    font-family: Calibri;
+    font-size: 14.5px;
+    line-height: 19px;
+    margin-top: 20px;
+}
+
+.construction_1 .specialsSection img {
+    border: none;
+    height: inherit;
+}
+
+.construction_1 .constructBottomService {
+    padding-top: 20px;
+}
+
+.construction_1 .aboutSection {
+    background: url(images/construct_about_bg.png);
+}
+
+.construction_1 .aboutSection h1 {
+    font-family: "Century Gothic";
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.construction_1 .aboutSection {
+    min-height: 405px;
+}
+
+.construction_1 .aboutSection span {
+    font-weight: bold;
+    color: #fe8f01;
+}
+
+.construction_1 .aboutSection .aboutTabOne {
+    background: #fe8f01;
+    padding: 30px;
+}
+
+.construction_1 .aboutSection .aboutTabOne p {
+    font-family: "Open Sans";
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: #eeeeee;
+}
+
+.construction_1 .aboutSection .aboutSectionText p {
+    font-family: "Century Gothic";
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.brandSection {
+    background: #e9e9e9;
+    padding-top: 40px;
+}
+
+.construction_1 .brandSection img {
+    height: inherit;
+}
+
+.clients-list li {
+    background: none !important;
+}
+
+.construction_1 .brandSection h1 {
+    color: #fe8f01;
+}
+
+.construction_1 .supscribeSection h1 {
+    background: #fe8f01;
+}
+
+.construction_1 .inqueryForm button {
+    background: #fe8f01;
+}
+
+.company_info_top {
+    text-align: center;
+}
+
+
+
+/*construction 2 changeColor */
+
+.construction_2 .construction_1 .Lorem1_2 {
+    color: #0c9d9f;
+}
+
+.construction_2 .construction_1 .aboutSection span {
+    color: #0c9d9f;
+}
+
+.construction_2 .construction_1 .aboutSection .aboutTabOne {
+    background: #0c9d9f;
+    padding: 30px;
+}
+
+.construction_1 .brandSection h1 {
+    color: #0c9d9f;
+}
+
+.construction_1 .supscribeSection h1 {
+    background: #0c9d9f;
+}
+
+.construction_2 .construction_1 .inqueryForm button {
+    background: #0c9d9f;
+}
+
+
+.construction_2 .construction_1 .Directory_headerBar {
+    background: #0c9d9f;
+}
+
+.construction_2 .construction_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #0c9d9f;
+}
+
+@media only screen and (max-width: 991px) {
+    .construction_2 .construction_1 .Directory_headerBar {
+        background: #0c9d9f;
+    }
+}
+
+.construction_2 .construction_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #0c9d9f;
+}
+
+
+/*construction 3 changeColor */
+
+.construction_3 .construction_1 .Lorem1_2 {
+    color: #aeb400;
+}
+
+.construction_3 .construction_1 .aboutSection span {
+    color: #aeb400;
+}
+
+.construction_3 .construction_1 .aboutSection .aboutTabOne {
+    background: #aeb400;
+    padding: 30px;
+}
+
+.construction_3 .brandSection h1 {
+    color: #aeb400;
+}
+
+.construction_3 .supscribeSection h1 {
+    background: #aeb400;
+}
+
+.construction_3 .construction_1 .inqueryForm button {
+    background: #aeb400;
+}
+
+
+.construction_3 .construction_1 .Directory_headerBar {
+    background: #aeb400;
+}
+
+.construction_3 .construction_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #aeb400;
+}
+
+@media only screen and (max-width: 991px) {
+    .construction_3 .construction_1 .Directory_headerBar {
+        background: #aeb400;
+    }
+}
+
+.construction_3 .construction_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #aeb400;
+}
+
+
+
+
+
+
+/*construction1 header bar*/
+
+.Directory_headerBar {
+    background: #fe8f01;
+    height: 107px;
+}
+
+.Directory_headerBar .FoundedCompany h1 {
+    font-family: "open sans";
+    font-size: 22px;
+    color: #fff;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.Directory_headerBar .foundedYear h1 {
+    font-family: "open sans";
+    font-size: 22px;
+    color: #fff;
+    margin: 0;
+    padding: 30px 0;
+}
+
+.Directory_headerBar .NameCircleWrap {
+    position: absolute;
+    width: 100%;
+    border-radius: 50% !important;
+    border: 2px solid #fe8f01;
+    padding: 28% 0;
+    background: #fff;
+    text-align: center;
+    top: -30px;
+}
+
+.Directory_headerBar .NameCircleWrap span {
+    font-family: "Century Gothic";
+    font-size: 181.25%;
+    color: #000;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 991px) {
+    .Directory_headerBar {
+        background: #fe8f01;
+        height: auto;
+        text-align: center;
+    }
+    .Directory_headerBar .NameCircleWrap {
+        position: static;
+        width: auto;
+        border-radius: 0 !important;
+        border: none;
+        padding: 10px 15px;
+        background: #fff;
+        top: 0;
+    }
+    .Directory_headerBar .NameCircleWrap span {
+        font-family: "Century Gothic";
+        font-size: 191.25%;
+        color: #000;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .Directory_headerBar .NameCircleWrap span {
+        font-size: 150.25%;
+    }
+    .Directory_headerBar .NameCircleWrap {
+        top: -13px;
+    }
+}
+
+
+/*Tour 1 header bar*/
+
+.tour_1 .Directory_headerBar {
+    background: #00adff;
+}
+
+.tour_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #00adff;
+}
+
+@media only screen and (max-width: 991px) {
+    .tour_1 .Directory_headerBar {
+        background: #00adff;
+    }
+}
+
+.tour_1 .aboutSection h1 {
+    font-family: "Century Gothic";
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.tour_1 .aboutSection {
+    background: url(images/tour_about_bg.png);
+    min-height: 400px;
+    font-family: Century Gothic;
+    color: white;
+    font-size: 15px;
+}
+
+.tour_1 .aboutSection .aboutTabOne {
+    background: #00adff;
+    padding: 30px;
+}
+
+.tour_1 .aboutSection span {
+    font-weight: bold;
+}
+
+.tour_1 .aboutSection h1 {
+    font-family: "Century Gothic";
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.tour_1 .supscribeSection h1 {
+    color: white;
+    background: #00adff;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tour_1 .inqueryForm button {
+    width: 100%;
+    height: 44px;
+    font-size: 20px;
+    background: #00adff;
+}
+
+.tour_1 .specialsSection {
+    background: #e4e4e4;
+    min-height: 476px;
+}
+
+.tour_1 .removerpaddingCustom .col-xs-8 .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.tour_1 .specialsSection img {
+    margin-bottom: 10px;
+    border: 1px solid #a6a6a6;
+    width: 100%;
+    height: auto;
+}
+
+.tour_1 .specialsSection h3 {
+    font-weight: bold;
+    color: #006b9e;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.tour_1 .specialsSection p {
+    color: #7e7e7e;
+    padding-left: 22px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.tour_1 .addpadding {
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.tour_1 .tourBgColor {
+    background: white;
+    margin-bottom: 36px;
+    border: 2px solid #00adff;
+}
+
+
+/* tour 2 colors*/
+
+
+.tour_2 .tour_1 .Directory_headerBar {
+    background: #00d75b;
+}
+
+.tour_2 .tour_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #00d75b;
+}
+
+@media only screen and (max-width: 991px) {
+    .tour_2 .tour_1 .Directory_headerBar {
+        background: #00d75b;
+    }
+}
+
+
+.tour_2 .tour_1 .aboutSection .aboutTabOne {
+    background: #00d75b;   
+}
+.tour_2 .tour_1 .supscribeSection h1 {
+    background: #00d75b;
+}
+.tour_2 .tour_1 .inqueryForm button {
+    background: #00d75b;
+}
+.tour_2 .tour_1 .specialsSection h3 {
+    color: #00d75b;
+}
+.tour_2 .tour_1 .tourBgColor {
+    border: 2px solid #00d75b;
+}
+
+/* tour 3 colors*/
+
+
+.tour_3 .tour_1 .Directory_headerBar {
+    background: #f0c516;
+}
+
+.tour_3 .tour_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #f0c516;
+}
+
+@media only screen and (max-width: 991px) {
+    .tour_3 .tour_1 .Directory_headerBar {
+        background: #f0c516;
+    }
+}
+
+
+.tour_3 .tour_1 .aboutSection .aboutTabOne {
+    background: #f0c516;
+    
+}
+
+
+.tour_3 .tour_1 .supscribeSection h1 {
+    background: #f0c516;
+
+}
+
+.tour_3 .tour_1 .inqueryForm button {
+    background: #f0c516;
+}
+
+
+.tour_3 .tour_1 .specialsSection h3 {
+    color: #f0c516;
+}
+
+
+.tour_3 .tour_1 .tourBgColor {
+    border: 2px solid #f0c516;
+}
+
+/*medical 1 header bar*/
+
+.medical_1 .Directory_headerBar {
+    background: #1cbf80;
+}
+
+.medical_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #1cbf80;
+}
+
+@media only screen and (max-width: 991px) {
+    .medical_1 .Directory_headerBar {
+        background: #1cbf80;
+    }
+}
+
+.medical_1 .aboutSection h1 {
+    font-family: "Century Gothic";
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.medical_1 .aboutSection {
+    background: url(images/medical_about_bg.png);
+    min-height: 534px;
+    font-family: Century Gothic;
+    color: white;
+    font-size: 15px;
+}
+
+.medical_1 .aboutSection .aboutTabOne {
+    background: #1cbf80;
+    padding: 30px;
+}
+
+.medical_1 .aboutSection span {
+    font-weight: bold;
+}
+
+.medical_1 .aboutSection h1 {
+    font-family: "Century Gothic";
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.medical_1 .supscribeSection h1 {
+    color: white;
+    background: #1cbf80;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.medical_1 .inqueryForm button {
+    width: 100%;
+    height: 44px;
+    font-size: 20px;
+    background: #1cbf80;
+}
+
+.medical_1 .specialsSection {
+    background: #e8e8e8;
+}
+
+.medical_1 .specialsSectionMargin .fullwidth {
+    width: 100%;
+}
+
+.medical_1 .medicalBgColor {
+    background: #4dc999;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+.medical_1 .medicalBgColor h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: black;
+}
+
+.medical_1 .medicalBgColor {
+    margin-bottom: 35px;
+}
+
+.medical_1 .removerpaddingCustom .fullwidth .img-responsive {
+    height: 100%;
+    width: 100%;
+}
+
+.medical_1 .paddingFromTop {
+    padding-top: 8px;
+    padding-left: 45px;
+}
+
+.medical_1 .featureIcons {
+    margin-left: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .medical_1 .featureIcons {
+        margin-left: 15px;
+    }
+}
+
+.medical_1 .increseFont {
+    font-size: 25px;
+    margin-bottom: -5px;
+}
+
+
+/*medical 2 changeColor*/
+
+.medical_2 .medical_1 .Directory_headerBar {
+    background: #ff4e00;
+}
+
+.medical_2 .medical_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #ff4e00;
+}
+
+@media only screen and (max-width: 991px) {
+    .medical_2 .medical_1 .Directory_headerBar {
+        background: #ff4e00;
+    }
+}
+.medical_2 .medical_1 .aboutSection .aboutTabOne {
+    background: #ff4e00;
+    
+}
+.medical_2 .medical_1 .supscribeSection h1 {
+   
+    background: #1cbf80;
+}
+.medical_2 .medical_1 .inqueryForm button {
+
+    background: #ff4e00;
+}
+.medical_2 .medical_1 .medicalBgColor {
+    background: #ff4e00;  
+}
+
+/*medical 3 changeColor*/
+
+.medical_3 .medical_1 .Directory_headerBar {
+    background: #0795d2;
+}
+
+.medical_3 .medical_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #0795d2;
+}
+
+@media only screen and (max-width: 991px) {
+    .medical_3 .medical_1 .Directory_headerBar {
+        background: #0795d2;
+    }
+}
+.medical_3 .medical_1 .aboutSection .aboutTabOne {
+    background: #0795d2;
+    
+}
+.medical_3 .medical_1 .supscribeSection h1 {
+   
+    background: #0795d2;
+}
+.medical_3 .medical_1 .inqueryForm button {
+
+    background: #0795d2;
+}
+.medical_3 .medical_1 .medicalBgColor {
+    background: #0795d2;  
+}
+
+
+/*Entertain Media 1 header bar*/
+
+.media_1 .Directory_headerBar {
+    background: #5d4174;
+}
+
+.media_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #5d4174;
+}
+
+@media only screen and (max-width: 991px) {
+    .media_1 .Directory_headerBar {
+        background: #5d4174;
+    }
+}
+
+.media_1 .aboutSection h1 {
+    font-family: "Century Gothic";
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.media_1 .aboutSection {
+    background: url(images/media_about_bg.png);
+    min-height: 400px;
+    font-family: Century Gothic;
+    color: white;
+    font-size: 15px;
+}
+
+.media_1 .aboutSection .aboutTabOne {
+    background: #5d4174;
+    padding: 30px;
+}
+
+.media_1 .aboutSection span {
+    font-weight: bold;
+}
+
+.media_1 .aboutSection h1 {
+    font-family: "Century Gothic";
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.media_1 .supscribeSection h1 {
+    color: white;
+    background: #5d4174;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.media_1 .inqueryForm button {
+    width: 100%;
+    height: 44px;
+    font-size: 20px;
+    background: #5d4174;
+}
+
+.media_1 .paddingFromTop {
+    padding-top: 8px;
+    padding-left: 45px;
+}
+
+.media_1 .featureIcons {
+    margin-left: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .media_1 .featureIcons {
+        margin-left: 15px;
+    }
+}
+
+.media_1 .increseFont {
+    font-size: 25px;
+    margin-bottom: -5px;
+}
+
+.media_1 .specialsSection {
+    background: #120321;
+}
+
+.media_1 .Lorem1_2 {
+    color: #bd17c9;
+    font-weight: bold;
+}
+
+.media_1 .removelpaddingCustom .col-md-6 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.media_1 .removerpaddingCustom .col-md-6 {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.media_1 .removelpaddingCustom .blackBg {
+    background: black;
+    /*margin-top: 50px;*/
+}
+
+.media_1 .specialsSection img {
+    border: none;
+    /*height: 100%;*/
+}
+
+.media_1 .removebSpaceCustom .removelpaddingCustom .blackBg img {
+    height: 100%;
+    padding-top: 104px;
+    padding-bottom: 104px;
+    width: 100%;
+}
+
+
+
+/*Entertain Media 2 changecolor*/
+
+.media_2 .media_1 .Directory_headerBar {
+    background: #9c9c9c;
+}
+.media_2 .media_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #9c9c9c;
+}
+@media only screen and (max-width: 991px) {
+    .media_2 .media_1 .Directory_headerBar {
+        background: #9c9c9c;
+    }
+}
+.media_2 .media_1 .aboutSection .aboutTabOne {
+    background: #9c9c9c;
+}
+.media_2 .media_1 .supscribeSection h1 {
+   
+    background: #9c9c9c;  
+}
+.media_2 .media_1 .inqueryForm button {
+    background: #9c9c9c;
+}
+
+/*Entertain Media 3 changecolor*/
+
+.media_3 .media_1 .Directory_headerBar {
+    background: #03718c;
+}
+.media_3 .media_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #03718c;
+}
+@media only screen and (max-width: 991px) {
+    .media_3 .media_1 .Directory_headerBar {
+        background: #03718c;
+    }
+}
+.media_3 .media_1 .aboutSection .aboutTabOne {
+    background: #03718c;
+}
+.media_3 .media_1 .supscribeSection h1 {
+   
+    background: #03718c;  
+}
+.media_3 .media_1 .inqueryForm button {
+    background: #03718c;
+}
+
+
+
+/*Real 1 header bar*/
+
+.real_1 .Directory_headerBar {
+    background: #11bbc6;
+}
+
+.real_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #11bbc6;
+}
+
+@media only screen and (max-width: 991px) {
+    .real_1 .Directory_headerBar {
+        background: #11bbc6;
+    }
+}
+
+.real_1 .aboutSection h1 {
+    font-family: "Century Gothic";
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.real_1 .aboutSection {
+    background: url(images/media_about_bg.png);
+    min-height: 400px;
+    font-family: Century Gothic;
+    color: white;
+    font-size: 15px;
+}
+
+.real_1 .aboutSection .aboutTabOne {
+    background: #11bbc6;
+    padding: 30px;
+}
+
+.real_1 .aboutSection span {
+    font-weight: bold;
+}
+
+.real_1 .aboutSection h1 {
+    font-family: "Century Gothic";
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.real_1 .supscribeSection h1 {
+    color: white;
+    background: #11bbc6;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.real_1 .inqueryForm button {
+    width: 100%;
+    height: 44px;
+    font-size: 20px;
+    background: #11bbc6;
+}
+
+.real_1 .paddingFromTop {
+    padding-top: 8px;
+    padding-left: 45px;
+}
+
+.real_1 .featureIcons {
+    margin-left: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .real_1 .featureIcons {
+        margin-left: 18px !important;
+    }
+}
+
+.real_1 .increseFont {
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .real_1 .increseFont {
+        font-size: 16px;
+        margin-bottom: 0px;
+        font-weight: bold;
+    }
+    .real_1 .featureIcons {
+        margin-left: 30px;
+    }
+}
+
+.real_1 .specialsSection {
+    background: #e8e8e8;
+}
+
+.real_1 .specialsSection img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.real_1 .priceSection {
+    background: #00c3cf;
+    padding: 10px 0px;
+}
+
+.real_1 .priceSection span {
+    font-weight: bold;
+    padding-left: 160px;
+}
+
+.real_1 .removerpaddingCustom .addMargin {
+    margin-top: 20px;
+}
+
+.real_1 .addMargin .col-md-3 {
+    padding-right: 0px;
+    margin-bottom: 40px;
+}
+
+.real_1 .brandSection {
+    background: white;
+}
+
+.real_1 .lowerSection img {
+    border: 18px solid white;
+}
+
+.real_1 .lowerSection {
+    background: #4e4e4e;
+}
+
+.real_1 .companySpecial {
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.real_1 .lowerText {
+    text-align: center;
+}
+
+.real_1 .lowerText p {
+    margin-bottom: 0px;
+}
+
+.real_1 .moveUpCustom .specialsSection {
+    padding-top: 0px !important;
+    margin-bottom: 10px;
+}
+
+.real_1 .lowerSection .removerpaddingCustom .col-md-6 .img-responsive {
+    margin-bottom: 15px !important;
+}
+
+.real_1 .lowerSection .removerpaddingCustom .col-md-6 {
+    padding-bottom: 20px !important;
+}
+
+
+/*Home Furnishing 1 header bar*/
+
+.home_1 .Directory_headerBar {
+    background: #906f3f;
+}
+
+.home_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #906f3f;
+}
+
+@media only screen and (max-width: 991px) {
+    .home_1 .Directory_headerBar {
+        background: #906f3f;
+    }
+}
+
+.home_1 .aboutSection h1 {
+    font-family: "Century Gothic";
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.home_1 .aboutSection {
+    background: url(images/media_about_bg.png);
+    min-height: 400px;
+    font-family: Century Gothic;
+    color: white;
+    font-size: 15px;
+}
+
+.home_1 .aboutSection .aboutTabOne {
+    background: #906f3f;
+    padding: 30px;
+}
+
+.home_1 .aboutSection span {
+    font-weight: bold;
+}
+
+.home_1 .aboutSection h1 {
+    font-family: "Century Gothic";
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.home_1 .supscribeSection h1 {
+    color: white;
+    background: #906f3f;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.home_1 .inqueryForm button {
+    width: 100%;
+    height: 44px;
+    font-size: 20px;
+    background: #906f3f;
+}
+
+.home_1 .paddingFromTop {
+    padding-top: 8px;
+    padding-left: 45px;
+}
+
+.home_1 .featureIcons {
+    margin-left: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .home_1 .featureIcons {
+        margin-left: 18px !important;
+    }
+}
+
+.home_1 .increseFont {
+    font-size: 20px;
+    margin-bottom: -5px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .home_1 .increseFont {
+        font-size: 16px;
+        margin-bottom: 0px;
+        font-weight: bold;
+    }
+    .home_1 .featureIcons {
+        margin-left: 30px;
+    }
+}
+
+.home_1 .specialsSection {
+    background: #e6d6bd;
+}
+
+.home_1 .specialsSection img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.home_1 .priceSection {
+    background: #906f3f;
+    padding: 10px 0px;
+}
+
+.home_1 .priceSection span {
+    font-weight: bold;
+    padding-left: 160px;
+}
+
+.home_1 .removerpaddingCustom .addMargin {
+    margin-top: 35px;
+}
+
+.home_1 .addMargin .col-md-3 {
+    padding-right: 0px;
+    margin-bottom: 40px;
+}
+
+.home_1 .imageFixer .featureIcons {
+    padding-top: 10px;
+}
+
+.home_1 .specialsSection img {
+    border: 2px solid white;
+}
+
+.home_1 .topSection .specialsSection {
+    background: white;
+}
+
+.home_1 .upperHome .headding {
+    color: #603913;
+    font-style: italic;
+    margin-top: 0px;
+    font-size: 32px;
+    font-family: Cambria;
+}
+
+.home_1 .upperHome .loremText {
+    color: black;
+    font-size: 18px;
+    font-family: Myriad Pro;
+    font-style: italic;
+}
+
+.home_1 .specialsSection .upperHome .homePadding {
+    padding-top: 90px;
+}
+
+.home_1 .topSection .specialsSection {
+    margin-bottom: 40px;
+}
+
+.home_1 .inventorySec .bx-wrapper img {
+    height: auto;
+}
+
+.home_1 .inventorySec .inventoryMain img {
+    height: auto !important;
+    width: 100%;
+}
+
+/*.home_1 .inventorySec .bx-wrapper .bx-prev {
+    left: -70px;
+    top: 100px !important;
+}
+
+.home_1 .inventorySec .bx-wrapper .bx-next {
+    left: 1100px;
+    top: 70px !important;
+}*/
+
+
+/*Home Furnishing 2 changeColor*/
+
+.home_2 .home_1 .Directory_headerBar {
+    background: #00ae08;
+}
+.home_2 .home_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #00ae08;
+}
+@media only screen and (max-width: 991px) {
+    .home_2 .home_1 .Directory_headerBar {
+        background: #00ae08;
+    }
+}
+.home_2 .home_1 .aboutSection .aboutTabOne {
+    background: #00ae08;
+}
+.home_2 .home_1 .supscribeSection h1 {   
+    background: #00ae08;
+}
+.home_2 .home_1 .inqueryForm button {
+    background: #00ae08;
+}
+.home_2 .home_1 .priceSection {
+    background: #00ae08;
+}
+
+.home_2 .home_1 .inventorySec .bx-wrapper img {
+    height: auto;
+}
+
+.home_2.home_1 .inventorySec .inventoryMain img {
+    height: auto !important;
+    width: 100%;
+}
+
+/*.home_2 .home_1 .inventorySec .bx-wrapper .bx-prev {
+    left: -70px;
+    top: 100px !important;
+}
+
+.home_2 .home_1 .inventorySec .bx-wrapper .bx-next {
+    left: 1100px;
+    top: 70px !important;
+}*/
+
+/*Home Furnishing 3 changeColor*/
+
+.home_3 .home_1 .Directory_headerBar {
+    background: #d96531;
+}
+.home_3 .home_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #d96531;
+}
+@media only screen and (max-width: 991px) {
+    .home_3 .home_1 .Directory_headerBar {
+        background: #d96531;
+    }
+}
+.home_3 .home_1 .aboutSection .aboutTabOne {
+    background: #d96531;
+}
+.home_3 .home_1 .supscribeSection h1 {   
+    background: #d96531;
+}
+.home_3 .home_1 .inqueryForm button {
+    background: #d96531;
+}
+.home_3 .home_1 .priceSection {
+    background: #d96531;
+}
+
+.home_3 .home_1 .inventorySec .bx-wrapper img {
+    height: auto;
+}
+
+.home_3 .home_1 .inventorySec .inventoryMain img {
+    height: auto !important;
+    width: 100%;
+}
+
+/*.home_3 .home_1 .inventorySec .bx-wrapper .bx-prev {
+    left: -70px;
+    top: 80px !important;
+}
+
+.home_3 .home_1 .inventorySec .bx-wrapper .bx-next {
+    left: 1100px;
+    top: 70px !important;
+}*/
+
+/*Hotel 1 header bar*/
+
+.hotel_1 .Directory_headerBar{
+    background: #3c66ff;
+}
+.hotel_1 .Directory_headerBar .NameCircleWrap{
+    border: 2px solid #3c66ff;
+}
+@media only screen and (max-width: 991px) {
+    .hotel_1 .Directory_headerBar{
+        background: #3c66ff;
+    }  
+}
+.hotel_1 .aboutSection h1 {
+    font-family: "Century Gothic";
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+.hotel_1 .aboutSection{
+    background: url(images/hotel_about_bg.png);
+    min-height: 534px;
+    font-family: Century Gothic;
+    color:white;
+    font-size: 15px;
+}
+.hotel_1 .aboutSection .aboutTabOne {
+    background: #3c66ff;
+    padding: 30px;
+}
+.hotel_1 .aboutSection span {
+    font-weight: bold;
+}
+.hotel_1 .aboutSection h1 {
+    font-family: "Century Gothic";
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+.hotel_1 .supscribeSection h1 {
+    color: white;
+    background: #3c66ff;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.hotel_1 .inqueryForm button {
+    width: 100%;
+    height: 44px;
+    font-size: 20px;
+    background: #3c66ff;
+}
+.hotel_1 .specialsSection img {
+	height:100%;
+}
+.hotel_1 .servicesWrap{
+	position:relative;
+}
+.hotel_1 .servicesWrap img{
+	width:100%;
+	margin:0;
+	position:relative;
+}
+.hotel_1 .Service_bottom{
+	border:2px solid #3c66ff;
+	background:#fff;
+	width:80%;
+	margin:0 auto;
+	text-align: center;
+    position: relative;
+    bottom: 30px;	
+}
+.hotel_1 .Service_bottom h2{
+	margin-top:8px;
+	color:#3c66ff;
+	font-weight:bold;
+}
+.hotel_1 .Service_bottom  p{
+	color:#5d5d5d;
+	font-family:tahoma;
+	padding:13px 23px;
+	padding-top:0px;
+	color:black; 	
+}
+.hotel_1 .aboutSection{
+	margin-bottom:-29px;
+}
+.hotel_1 .roomcontainer .row{
+	padding:40px;
+	padding-left:80px;	
+}
+.hotel_1 .lowerSide{
+	background: white;	
+}
+.hotel_1 .specialsSection {
+	min-height:100% !important;
+	margin-bottom: 60px;
+	
+}
+.hotel_1 .aboutRoom p{
+	color:#fefefe;
+	margin:0px;
+	font-family:Century Gothic;
+	font-weight:bold;
+	font-size:15px;
+}
+.hotel_1 .aboutRoom .move{
+	padding-left:20px;
+	
+}
+.hotel_1 .aboutRoom h1{
+	color:#fefefe;
+	font-weight:bold;
+	font-family:Century Gothic;
+}
+.hotel_1 .aboutRoom{
+	position: relative;
+    margin-top: -170px;
+    text-align:center;
+}
+
+
+/*Hotel 2 changecolors*/
+
+.hotel_2 .hotel_1 .Directory_headerBar{
+    background: #b20189;
+}
+.hotel_2 .hotel_1 .Directory_headerBar .NameCircleWrap{
+    border: 2px solid #b20189;
+}
+@media only screen and (max-width: 991px) {
+.hotel_2 .hotel_1 .Directory_headerBar{
+        background: #b20189;
+    }  
+}
+
+.hotel_2 .hotel_1 .aboutSection .aboutTabOne {
+    background: #b20189;
+    
+}
+
+.hotel_2 .hotel_1 .supscribeSection h1 {
+    color: white;
+    background: #b20189;
+}
+.hotel_2 .hotel_1 .inqueryForm button {
+    background: #b20189;
+}
+
+.hotel_2 .hotel_1 .Service_bottom{
+	border:2px solid #b20189;
+
+}
+.hotel_2 .hotel_1 .Service_bottom h2{
+	
+	color:#b20189;
+	
+}
+
+/*Hotel 3 changecolors*/
+
+.hotel_3 .hotel_1 .Directory_headerBar{
+    background: #8cd033;
+}
+.hotel_3 .hotel_1 .Directory_headerBar .NameCircleWrap{
+    border: 2px solid #8cd033;
+}
+@media only screen and (max-width: 991px) {
+.hotel_3 .hotel_1 .Directory_headerBar{
+        background: #8cd033;
+    }  
+}
+
+.hotel_3 .hotel_1 .aboutSection .aboutTabOne {
+    background: #8cd033;
+    
+}
+
+.hotel_3 .hotel_1 .supscribeSection h1 {
+    background: #8cd033;
+}
+.hotel_3 .hotel_1 .inqueryForm button {
+    background: #8cd033;
+}
+
+.hotel_3 .hotel_1 .Service_bottom{
+	border:2px solid #8cd033;
+
+}
+.hotel_3 .hotel_1 .Service_bottom h2{
+	
+	color:#8cd033;
+	
+}
+
+
+
+
+
+
+
+
+/*Auto 1 header bar*/
+
+.auto_1 .Directory_headerBar{
+    background: #f0c20a;
+}
+
+.auto_1 .Directory_headerBar .NameCircleWrap{
+    border: 2px solid #f0c20a;
+}
+
+@media only screen and (max-width: 991px) {
+    .auto_1 .Directory_headerBar{
+        background: #f0c20a;
+    }
+   
+}
+.auto_1 .aboutSection h1 {
+    font-family: "Century Gothic";
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.auto_1 .aboutSection{
+    background: url(images/about_sec_bg_03a.jpg);
+    min-height: 400px;
+    font-family: Century Gothic;
+    color:white;
+    font-size: 15px;
+}
+
+.auto_1 .aboutSection .aboutTabOne {
+    background: #f0c20a;
+    padding: 30px;
+}
+
+.auto_1 .aboutSection span {
+    font-weight: bold;
+}
+
+.auto_1 .aboutSection h1 {
+    font-family: "Century Gothic";
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.auto_1 .supscribeSection h1 {
+    color: white;
+    background: #f0c20a;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.auto_1 .inqueryForm button {
+    width: 100%;
+    height: 44px;
+    font-size: 20px;
+    background: #f0c20a;
+}
+
+.auto_1 .brandSection{
+    background: transparent;
+}
+
+.auto_1 .specialsSection{
+    background: #4e4e4e;
+}
+
+.auto_1 .lowerText {
+    text-align: center;
+}
+
+.auto_1 .lowerText p {
+    margin-bottom: 0px;
+}
+
+.auto_1 .specialsSection img {
+    height: 100%;
+}
+
+/*.auto_1 .bx-wrapper .bx-prev {
+    left: -90px;
+}*/
+
+.auto_1 .inventorySec .bx-wrapper .bx-next {
+    left: 1120px;
+}
+
+.real_1 .inventorySec .bx-wrapper img {
+    height: auto;
+}
+
+/*.real_1 .bx-wrapper .bx-prev {
+    left: -90px;
+    top: 90px !important;
+}
+
+.real_1 .inventorySec .bx-wrapper .bx-next {
+    left: 1120px;
+    top: 70px !important;
+}*/
+
+.real_1 .recent-work ul.bxslider li:hover a.bxslider-block {
+    background: #00c3cf !important;
+}
+
+/*Real 2 changecolor*/
+
+.real_2 .real_1 .Directory_headerBar {
+    background: #1e9876;
+}
+.real_2 .real_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #1e9876;
+}
+@media only screen and (max-width: 991px) {
+    .real_2 .real_1 .Directory_headerBar {
+        background: #1e9876;
+    }
+}
+.real_2 .real_1 .aboutSection .aboutTabOne {
+    background: #1e9876;
+}
+.real_2 .real_1 .supscribeSection h1 {
+   
+    background: #1e9876;  
+}
+.real_2 .real_1 .inqueryForm button {
+    background: #1e9876;
+}
+
+/*Real 3 changecolor*/
+
+.real_3 .real_1 .Directory_headerBar {
+    background: #ff915e;
+}
+.real_3 .real_1 .Directory_headerBar .NameCircleWrap {
+    border: 2px solid #ff915e;
+}
+@media only screen and (max-width: 991px) {
+    .real_3 .real_1 .Directory_headerBar {
+        background: #ff915e;
+    }
+}
+.real_3 .real_1 .aboutSection .aboutTabOne {
+    background: #ff915e;
+}
+.real_3 .real_1 .supscribeSection h1 {
+   
+    background: #ff915e;  
+}
+.real_3 .real_1 .inqueryForm button {
+    background: #ff915e;
+}
+
+/*Restaurant 1 header bar*/
+
+.restaurant_1 .Directory_headerBar{
+    background: #fd842a;
+}
+
+.restaurant_1 .Directory_headerBar .NameCircleWrap{
+    border: 2px solid #fd842a;
+}
+
+@media only screen and (max-width: 991px) {
+    .restaurant_1 .Directory_headerBar{
+        background: #fd842a;
+    }
+   
+}
+.restaurant_1 .aboutSection h1 {
+    font-family: "Century Gothic";
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.restaurant_1 .aboutSection{
+    background: url(images/restaurant_about_bg.png);
+    min-height: 400px;
+    font-family: Century Gothic;
+    color:white;
+    font-size: 15px;
+}
+
+.restaurant_1 .aboutSection .aboutTabOne {
+    background: #fd842a;
+    padding: 30px;
+}
+
+.restaurant_1 .aboutSection span {
+    font-weight: bold;
+}
+
+.restaurant_1 .aboutSection h1 {
+    font-family: "Century Gothic";
+    margin: 30px 0 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 21px;
+}
+
+.restaurant_1 .supscribeSection h1 {
+    color: white;
+    background: #fd842a;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.restaurant_1 .inqueryForm button {
+    width: 100%;
+    height: 44px;
+    font-size: 20px;
+    background: #fd842a;
+}
+
+.restaurant_1 .specialsSection {
+    background: transparent;
+    margin-top: 55px;
+}
+
+.restaurant_1 .specialsSection img {
+    margin-bottom: 10px;
+    border: 1px solid #a6a6a6;
+    height: auto;
+}
+
+.restaurant_1 .removetSpaceCustom .row .specialsSectionMargin .col-md-4{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.restaurant_1 .specialsSectionMargin {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.restaurant_1 .restaurant_1 .specialsSection img{
+    text-align: center;
+    align-items: center;
+}
+
+/*Restaurant 2 .changeColor*/
+
+.restaurant_2 .restaurant_1 .Directory_headerBar{
+    background: #da003e;
+}
+
+.restaurant_2 .restaurant_1 .Directory_headerBar .NameCircleWrap{
+    border: 2px solid #da003e;
+}
+
+@media only screen and (max-width: 991px) {
+    .restaurant_2 .restaurant_1 .Directory_headerBar{
+        background: #da003e;
+    }
+   .restaurant_2 .restaurant_1 .aboutSection .aboutTabOne {
+    background: #da003e;
+    padding: 30px;
+}
+   
+}
+
+.restaurant_2 .restaurant_1 .aboutSection .aboutTabOne {
+    background: #da003e;
+
+}
+
+.restaurant_2 .restaurant_1 .supscribeSection h1 {
+
+    background: #da003e;
+
+}
+
+.restaurant_2 .restaurant_1 .inqueryForm button {
+    
+    background: #da003e;
+}
+
+/*Restaurant 3 .changeColor*/
+
+.restaurant_3 .restaurant_1 .Directory_headerBar{
+    background: #6f7c12;
+}
+
+.restaurant_3 .restaurant_1 .Directory_headerBar .NameCircleWrap{
+    border: 2px solid #6f7c12;
+}
+
+@media only screen and (max-width: 991px) {
+    .restaurant_3 .restaurant_1 .Directory_headerBar{
+        background: #6f7c12;
+    }
+   .restaurant_3 .restaurant_1 .aboutSection .aboutTabOne {
+    background: #6f7c12;
+    padding: 30px;
+}
+   
+}
+
+.restaurant_3 .restaurant_1 .aboutSection .aboutTabOne {
+    background: #6f7c12;
+
+}
+
+.restaurant_3 .restaurant_1 .supscribeSection h1 {
+
+    background: #6f7c12;
+
+}
+
+.restaurant_3 .restaurant_1 .inqueryForm button {
+    
+    background: #6f7c12;
+}

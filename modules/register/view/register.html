@@ -1,0 +1,331 @@
+﻿
+<div class="container-fluid topHeader" ng-init="validate_package()">
+
+    <div class="row">
+
+        <div class="col-md-3 no_paddingRight">
+
+            <div class="toggle_btn">
+                <a href="#menu" id="toggle"><span></span></a>
+
+                <div id="menu">
+                    <ul>
+                        <li class="hoverable">
+                            <a href="login.html" class="fa fa-user fa-2x font-yellow toolable" data-toggle="tooltip" data-placement="right" title="Members Area / Login"> </a>
+                        </li>
+                        <li class="hoverable">
+                            <a href="business_list.html" class="fa fa-file-text-o fa-2x font-yellow toolable" data-toggle="tooltip" data-placement="right" title="List your business"> </a>
+                        </li>
+                        <li class="hoverable">
+                            <a href="premium-business.html" class="fa fa-briefcase fa-2x font-yellow toolable" data-toggle="tooltip" data-placement="right" title="Premium Business"> </a>
+                        </li>
+                        <li class="hoverable">
+                            <a href="events.html" class="fa fa-rss fa-2x font-yellow toolable" data-toggle="tooltip" data-placement="right" title="News & Events"> </a>
+                        </li>
+                        <li class="hoverable">
+                            <a href="video_guide.html" class="fa fa-video-camera fa-2x font-yellow toolable" data-toggle="tooltip" data-placement="right" title="Video Guide"> </a>
+                        </li>
+                        <li class="hoverable">
+                            <a href="business_list-4.html" class="fa fa-map-marker fa-2x font-yellow toolable" data-toggle="tooltip" data-placement="right" title="Location Base Business"> </a>
+                        </li>
+                        <li class="hoverable">
+                            <a href="offers.html" class="fa fa-tag fa-2x font-yellow toolable" data-toggle="tooltip" data-placement="right" title="Offers Arena"> </a>
+                        </li>
+                        <li class="hoverable">
+                            <a href="advertise.html" class="fa fa-volume-off fa-2x font-yellow toolable" data-toggle="tooltip" data-placement="right" title="Advertise with us"> </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="index.html"> <span class="inner_brandName"> Emirates Guide </span></a>
+        </div>
+
+        <div class="col-md-6">
+
+            <div class="search_area">
+                <div class="col-md-6">
+                    <input type="text" class="topSearchbar" value="Search Business Type Or Name">
+                </div>
+                <div class="col-md-4">
+                    <select class="topSearchbar">
+
+                        <option>City / Emirates</option>
+                        <option>City Name</option>
+                        <option>City Name</option>
+                        <option>City Name</option>
+                        <option>City Name</option>
+                        <option>City Name</option>
+                    </select>
+                </div>
+
+
+                <div class="col-md-2">
+
+                    <div class="search_btn">
+                        <button><i class="fa fa-search topBtnSrch"></i></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 no-padding">
+            <div class="signInBar">
+                <ul>
+                    <li>Welcome ,</li>
+                    <li class="no_bg"><a href="#">Register Now</a> </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!---heading section-->
+<div class="container-fluid Grey_areaTop">
+
+    <div class="col-md-6 col-sm-6 col-xs-6">
+        <h1>Register Now</h1>
+    </div>
+
+
+    <div class="col-md-6 col-sm-6 col-xs-6">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active">Register Now</li>
+        </ol>
+    </div>
+
+
+</div>
+<!---END heading section-->
+
+<!---Contact Us-->
+
+<div class="container-fluid">
+
+    <div class="row innerPages">
+
+        <div class="col-md-1 col-sm-1 no-padding">
+            <div class="outline-header"></div>
+        </div>
+
+
+        <div class="col-md-9 col-sm-9">
+            <h2>Business Account Registration</h2>
+            <p>Please fill out the fields below to create your account. We will send your account information to the email address you enter. Your email address and information will NOT be sold or shared with any 3rd party. If you already have an account, please, <a href="#">click here.</a></p>
+
+        </div>
+
+        <div class="col-md-2"></div>
+
+    </div>
+
+    <div class="row registerPage">
+
+        <div class="col-md-3">
+            <div class="packageBox">
+
+                <div class="pkg_header">
+
+                    <h2>{{selected_plan.package_plan_title}}</h2>
+                    <h3>{{selected_plan.package_plan_subtitle}}</h3>
+                </div>
+
+                <div class="price_box">
+
+                    <!-- <h3>$<span class="bigNmbr">5</span>.49</h3> -->
+                    <h3> {{selected_plan.package_plan_fee}} </h3>
+                    <span>Per Month</span>
+
+                </div>
+
+                <div class="listPkg">
+
+                    <ul>
+                                     <li ng-repeat="feature in selected_plan.features">  {{feature.feature_title}} </li>
+                                     
+                                     <p>{{plan.short_description}}</p>
+                                 </ul>
+
+                </div>
+
+                <div class="clearfix"></div>
+
+            </div>
+
+
+        </div>
+
+        <div class="col-md-7">
+
+            <div class="contact_form_Wrap">
+                <form name="registerForm" novalidate>
+                    <div class="col-md-12">
+
+                        <h2>CONTACT INFORMATION</h2>
+                        <br>
+
+                        <div class="form-group">
+                            <label>Manager Name <span>*</span></label>
+                            <input type="text" name="manager_name" ng-model="new_business.manager_name" class="form-control" placeholder="Manager Name" required>
+
+                        </div>
+                        <div ng-if="registerForm.manager_name.$invalid && form_submitted" class="warning text-right"> Manager name is required </div>
+                    </div>
+
+
+
+                    <div class="col-md-12">
+
+                        <div class="form-group">
+                            <label>Phone Number <span>*</span></label>
+                            <input type="text" pattern="[0-9]{11}" ng-model="new_business.contact_no" title="Enter 11 digits number." class="form-control" placeholder="XXXXXXXXXXX" required name="phone_num">
+                        </div>
+                        <div ng-if="registerForm.phone_num.$invalid && form_submitted" class="warning text-right"> Phone Number is required </div>
+                    </div>
+
+                    <div class="col-md-12">
+
+                        <div class="form-group">
+                            <label>Email Address<span>*</span></label>
+                            <input type="text" class="form-control" placeholder="abc@gmail.com" ng-model="new_business.email" name="myEmail" required>
+                        </div>
+                        <div ng-if="registerForm.myEmail.$invalid && form_submitted" class="warning text-right"> Email address is required </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>Company Name <span>*</span></label>
+                            <input type="text" class="form-control" placeholder="Enter Company name here" ng-model="new_business.company_name" name="company_name" required>
+                        </div>
+                        <div ng-if="registerForm.company_name.$invalid && form_submitted" class="warning text-right"> Company name is required </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>Select Your Company Category <span>*</span></label>
+                            <select name="category_id" ng-model="new_business.business_category_id" class="form-control">
+                                <option ng-repeat="category in categories" value="{{category.id}}">{{category.category_name}}</option>
+                            </select>
+                        </div>
+                        <div ng-if="registerForm.category_id.$invalid && form_submitted" class="warning text-right"> Category is required </div>
+                    </div>
+
+                    <div class="col-md-12">
+
+                        <h2>Account INFORMATION</h2>
+                        <br>
+
+                        <div class="form-group">
+                            <label>User Name <span>*</span></label>
+                            <input type="text" class="form-control" ng-model="new_business.user_name" placeholder="Username" name="username" required>
+                        </div>
+                        <div ng-if="registerForm.username.$invalid && form_submitted" class="warning text-right"> Username is required </div>
+                    </div>
+
+
+
+                    <div class="col-md-12">
+
+                        <div class="form-group">
+                            <label>Password <span>*</span></label>
+                            <input type="password" ng-model="new_business.password" class="form-control" placeholder="Password" required name="password">
+                            <div ng-if="registerForm.password.$invalid && form_submitted" class="warning text-right"> Password is required </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-12">
+
+                        <div class="form-group">
+                            <label>Confirm Password  <span>*</span></label>
+                            <input type="password" class="form-control" ng-model="repassword" placeholder="Repeat password" required>
+                        </div>
+                        <div ng-if="(new_business.password!=repassword)&&form_submitted" class="warning text-right"> Passwords should match </div>
+                    </div>
+
+                        <!--<span ng-show="passwordNotMatch">Password Not Match.</span>-->
+
+                    <div class="col-md-12">
+
+                        <div class="form-group ng-hide">
+                            <label>Confirm that you are human <span>*</span></label>
+                            <div class="g-recaptcha" data-sitekey="6LfFIxAUAAAAAEPNEi8eXnhvfrTFwwmOwbR7f_h_"></div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+                            <div class="buttons">
+                                <!--<button class="saveBtn">Register Now</button>-->
+                                <input type="submit" ng-click="register_business(registerForm.$invalid,registerForm.$error);" value="Register Now" class="saveBtn">
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+
+</div>
+
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script type="text/javascript">
+        var theToggle = document.getElementById('toggle');
+
+        // based on Todd Motto functions
+        // http://toddmotto.com/labs/reusable-js/
+
+        // hasClass
+        function hasClass(elem, className) {
+            return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+        }
+        // addClass
+        function addClass(elem, className) {
+            if (!hasClass(elem, className)) {
+                elem.className += ' ' + className;
+            }
+        }
+        // removeClass
+        function removeClass(elem, className) {
+            var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
+            if (hasClass(elem, className)) {
+                while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
+                    newClass = newClass.replace(' ' + className + ' ', ' ');
+                }
+                elem.className = newClass.replace(/^\s+|\s+$/g, '');
+            }
+        }
+        // toggleClass
+        function toggleClass(elem, className) {
+            var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
+            if (hasClass(elem, className)) {
+                while (newClass.indexOf(" " + className + " ") >= 0 ) {
+                    newClass = newClass.replace( " " + className + " " , " " );
+                }
+                elem.className = newClass.replace(/^\s+|\s+$/g, '');
+            } else {
+                elem.className += ' ' + className;
+            }
+        }
+
+        theToggle.onclick = function() {
+            toggleClass(this, 'on');
+            return false;
+        }
+    </script>
+    <!-- END PAGE LEVEL JAVASCRIPTS -->
+
+    

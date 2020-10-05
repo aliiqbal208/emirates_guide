@@ -1,0 +1,80 @@
+<div class="col-md-9">
+
+                <div class="heading_membersArea">
+                <div class="row">
+                    <div class="col-md-5 no-padding">
+                        <div class="outline"></div>
+                    </div>
+                    <div class="col-md-2">
+                        <h2>Brands</h2>
+                    </div>
+                    <div class="col-md-5 no-padding">
+                        <div class="outline"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis.</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+            </div>
+
+                    <div class="members_formWrap">
+
+                    <div class="row"> 
+                            <div class="col-md-8 animated fadeIn" ng-repeat="brand in brands_array">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Brand Name</label>
+                                    <input type="text" ng-model="brand['brand_name_'+($index+1)]" class="form-control brands" placeholder="Enter Brand Name">
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label>Brand Image</label>
+
+                                    <div class="selectFile">
+                                    <span class="btn btn-default" ngf-pattern="'image/*'" ngf-accept="'image/*'" ngf-select="set_brand_photos($files,$index)">
+                                    Choose Image</span>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-2">
+                                <image class="img-responsive" ngf-src="brand.image" />
+                            </div>
+                             </div>
+                        <div class="col-md-2">
+                            <div class="form-group">
+                                <label>&nbsp;</label>
+                                <div class="clearfix"></div>
+                                <button class="addBrand_btn" ng-click="add_more_row()">Add More</button>
+                            </div>
+                        </div>
+                        <div class="col-md-2"></div>
+
+
+</div>
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <div class="buttons">
+                                    <button class="saveBtn" ng-click="save_progress(4)">Save</button>
+                                    <button class="nxtBtn"  ng-click="move_next(5)">Next</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+            </div>

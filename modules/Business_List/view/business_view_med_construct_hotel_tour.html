@@ -1,0 +1,324 @@
+<div class="directory_pages construction_1">
+    <!-- BEGIN PAGE CONTAINER -->
+    <div class="page-container">
+        <section name="sliderSection">
+            <div class="container-fluid fullwidthContainer">
+                <div class="row sliderContainer">
+                    <div class="sliderReviewBox">
+                        <div class="sliderReviewBoxTitle">{{current_business.company_name}} <span><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i>&nbsp;Reviews</span></div>
+                        <div class="sliderReviewBoxInfo">
+                            <p>{{current_business.company_information[0].address}}</p>
+                            <p>Tel: {{current_business.company_information[0].phone}} | Fax: {{current_business.company_information[0].fax}} </p>
+                            <p>Email: {{current_business.company_information[0].email}} | {{current_business.company_information[0].website}} </p>
+                        </div>
+                    </div>
+                    <img class=" img-responsive" src="images/construction_banner.jpg">
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+             <section name="logoSectionAfterSlider">
+        <div class="container-fluid Directory_headerBar">
+           
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+
+                <div class=" col-md-4 FoundedCompany"><h1>Founded</h1></div>
+
+                    <div class="col-md-5 no-padding" style="position: relative">
+
+                        <div class="NameCircleWrap">
+                            <span>{{current_business.company_name}}</span>
+                        </div>
+                    </div>
+
+                <div class="col-md-3 foundedYear"><h1>{{current_business.about_company[0].establishment_year}}</h1></div>
+
+            </div>
+            <div class="col-md-4"></div>
+
+        </div>
+    </section>
+
+    <section name="VALUES">
+        <div class="container">
+<div class="imageFixer">
+    <div class="row service-box values">
+        <div class="col-md-2 col-sm-2">
+            <div class="featureIcons">
+                <img src="images/pic-1.png">             
+           </div>
+            <div class="value_wrap">
+                <span>Great Value </span>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-2">
+            <div class="featureIcons">
+                <img src="images/pic-2.png">
+                
+
+            </div>
+            <div class="value_wrap">
+                <span>Great Value </span>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-2">
+            <div class="featureIcons">
+                <img src="images/pic-3.png">
+                
+
+            </div>
+            <div class="value_wrap">
+                <span>Great Value </span>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-2">
+            <div class="featureIcons">
+                <img src="images/pic-4.png">
+                
+
+            </div>
+            <div class="value_wrap">
+                <span>Great Value </span>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-2">
+            <div class="featureIcons">
+                <img src="images/pic-5.png">
+                
+
+
+            </div>
+            <div class="value_wrap">
+                <span>Great Value </span>
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-2">
+            <div class="featureIcons">
+                <img src="images/pic-6.png">
+                
+            </div>
+            <div class="value_wrap">
+                <span>Great Value </span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+<section>
+    <div class="moveUpCustom">
+        <div class="container-fluid fullwidthContainer specialsSection ">
+            <div class="container">
+                <div class="removetSpaceCustom">
+                    <div class="row specialsSectionMargin">
+                        <div class="removerpaddingCustom">
+                            <div class="col-md-6">
+                                <img class="img-responsive" ng-src="{{get_trusted_src(current_business.company_services[0].service_image_url)}}">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="ourServChange">
+                                <div class="ourServ">
+                                    <h1 class="Lorem1_1">{{current_business.company_services[0].service_title}}</h1>
+                                    <!-- <h3 class="Lorem1_2">NEOQO PORO</h3> -->
+                                    <p>{{current_business.company_services[0].service_description}}
+
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="removebSpaceCustom">
+                    <div class="row specialsSectionMargin">
+                        <div class="col-md-6">
+                            <div class="ourServChange">
+                                <div class="constructBottomService">
+                                    <div class="ourServ">
+                                        <h1 class="Lorem1_1">{{current_business.company_services[1].service_title}}</h1>
+                                        <!-- <h3 class="Lorem1_2">NEOQO PORO</h3> -->
+                                        {{current_business.company_services[1].service_description}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="removelpaddingCustom">
+                            <div class="col-md-6">
+                                <img class="img-responsive" ng-src="{{get_trusted_src(current_business.company_services[1].service_image_url)}}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section name="AdvTop">
+    <div class="container margin-bottom-40 margin-top-40">
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive" src="images/adv_image1_14.jpg">
+            </div>
+
+        </div>
+    </div>
+</section>
+<section name="aboutSection">
+    <div class="container-fluid fullwidthContainer aboutSection">
+        <div class="container">
+            <div class="row">
+
+                <h1><span>{{current_business.company_name}}</span>&nbsp;&nbsp;About Us  </h1>
+<div class="col-md-3 no-padding col-sm-3">
+    <div class="aboutTabOne">
+        <p> Establishment year</p>
+        <p> {{current_business.about_company[0].establishment_year}}</p>
+        <p> Employees</p>
+        <p> {{current_business.about_company[0].employees}}</p>
+        <p> Company manager</p>
+        <p> {{current_business.manager_name}}</p>
+        <p> Registration code</p>
+        <p> {{current_business.about_company[0].registration_code}}</p>
+
+    </div>
+</div>
+<div class="col-md-9 aboutSectionText col-sm-9">
+    {{current_business.about_company[0].about_company}}
+</div>
+</div>
+</div>
+</div>
+</section>
+<section name="BrandSection" class="brandSection container-fluid">
+
+    <div class="container">
+        <div class="row margin-bottom-40 our-clients">
+
+            <div class="col-md-12">
+                <div class="bx-wrapper" style="max-width: 1808px;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 113px;"><ul class="bxslider1 clients-list brandsLogo" style="display: block; width: 715%; position: relative; transition-duration: 0s; transform: translate3d(-1101px, 0px, 0px);">
+                <li ng-repeat="brand in current_business.company_brands" style="float: left; list-style: none; position: relative; width: 214.4px; margin-right: 2px;" class="bx-clone">
+                        <a href="">
+                            <img ng-src="{{get_trusted_src(brand.brand_image_url)}}">
+                        </a>
+                    </li>
+                    </ul>
+                    </div>
+                    <div class="bx-controls bx-has-pager bx-has-controls-direction"><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link active">1</a></div><div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link">2</a></div><div class="bx-pager-item"><a href="" data-slide-index="2" class="bx-pager-link">3</a></div><div class="bx-pager-item"><a href="" data-slide-index="3" class="bx-pager-link">4</a></div><div class="bx-pager-item"><a href="" data-slide-index="4" class="bx-pager-link">5</a></div></div><div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next" href="">Next</a></div></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section name="subscribeSection">
+    <div class="container supscribeSection margin-bottom-40 margin-top-40">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="col-md-6 no-padding ">
+                    <h1>Opening Hours</h1>
+                    <div class="subscribeTab">
+
+                        <p>Week Days: {{current_business.company_information[0].working_hours_weekdays}}</p>
+                        <p>Weekends: {{current_business.company_information[0].working_hours_weekends}}</p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 no-padding subscribeTab">
+                    <h1>Subscribe</h1>
+                    <div class="subscribeTab">
+                        <form name="subscriber">
+                            <input type="email" class="form-control" id="email" placeholder="Enter Email">
+                            <button type="submit" class="btn">SignUp</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive" src="images/adv_image_02_03.jpg" style="display:block !important">
+</div>
+</div>
+</div>
+</section>
+<section name="inquirySection">
+    <div class="container-fluid fullwidthContainer inqueryPage">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 margin-top-40">
+                <img class="" align="middle" src="images/user_icon_03.jpg">
+                <h2>Enquire Now</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id justo elit. Morbi gravida ipsum maximus,
+                    posuere orci et, efficitur odio. Donec iaculi s augue sit amet mollis interdum. Ut mattis in arcu id
+                    luctus llis interdum. Ut mattis in arcu id luctus</p>
+
+
+                <div class="row inqueryForm  margin-top-20">
+                    <form name="inqueryForm">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-2 ">
+                            <input type="email" class="form-control" id="name" placeholder="Enter Your Name">
+                        </div>
+                        <div class="col-md-2 ">
+                            <input type="email" class="form-control" id="email" placeholder="Enter Email Address">
+                        </div>
+                        <div class="col-md-2 ">
+                            <input type="email" class="form-control" id="telephone" placeholder="Enter Telephone No">
+                        </div>
+                        <div class="col-md-2 ">
+                            <input type="email" class="form-control" id="state" placeholder="Enter State">
+                        </div>
+                        <div class="col-md-2 ">
+                            <button type="submit" class="btn">Send Inquery</button>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section name="gmapSection">
+    <div class="container-fluid fullwidthContainer">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="map" class="gmaps" style="height: 400px; position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-style" style="position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; z-index: 0;"><div style="position: absolute; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; z-index: 0; cursor: url(&quot;http://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;) 8 8, default;"><div style="position: absolute; left: 0px; top: 0px; z-index: 1; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="width: 256px; height: 256px; position: absolute; left: 573px; top: 133px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 317px; top: 133px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 573px; top: -123px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 573px; top: 389px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 829px; top: 133px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 317px; top: 389px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 317px; top: -123px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 829px; top: -123px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 829px; top: 389px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1085px; top: 133px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 61px; top: 133px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1085px; top: 389px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1085px; top: -123px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 61px; top: 389px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 61px; top: -123px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1341px; top: 133px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -195px; top: 133px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -195px; top: -123px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1341px; top: -123px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -195px; top: 389px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1341px; top: 389px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 573px; top: 133px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 317px; top: 133px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 573px; top: -123px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 573px; top: 389px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 829px; top: 133px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 317px; top: 389px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 317px; top: -123px;"><canvas draggable="false" height="256" width="256" style="user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 829px; top: -123px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 829px; top: 389px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1085px; top: 133px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 61px; top: 133px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1085px; top: 389px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1085px; top: -123px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 61px; top: 389px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 61px; top: -123px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1341px; top: 133px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -195px; top: 133px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -195px; top: -123px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1341px; top: -123px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -195px; top: 389px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1341px; top: 389px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="position: absolute; left: 573px; top: 133px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6441!3i8789!4i256!2m3!1e0!2sm!3i373056562!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=75427" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 317px; top: 133px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6440!3i8789!4i256!2m3!1e0!2sm!3i373056946!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=79842" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 573px; top: 389px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6441!3i8790!4i256!2m3!1e0!2sm!3i373056538!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=94004" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 573px; top: -123px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6441!3i8788!4i256!2m3!1e0!2sm!3i373056970!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=62309" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 829px; top: 389px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6442!3i8790!4i256!2m3!1e0!2sm!3i373056538!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=40461" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 829px; top: 133px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6442!3i8789!4i256!2m3!1e0!2sm!3i373056562!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=21884" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 317px; top: 389px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6440!3i8790!4i256!2m3!1e0!2sm!3i373056538!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=16476" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 829px; top: -123px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6442!3i8788!4i256!2m3!1e0!2sm!3i373056970!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=8766" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 61px; top: 133px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6439!3i8789!4i256!2m3!1e0!2sm!3i373056994!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=125627" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 317px; top: -123px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6440!3i8788!4i256!2m3!1e0!2sm!3i373056946!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=43821" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 1085px; top: 133px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6443!3i8789!4i256!2m3!1e0!2sm!3i373056538!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=27381" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 1085px; top: 389px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6443!3i8790!4i256!2m3!1e0!2sm!3i373056538!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=117989" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 1085px; top: -123px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6443!3i8788!4i256!2m3!1e0!2sm!3i373056970!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=86294" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 61px; top: 389px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6439!3i8790!4i256!2m3!1e0!2sm!3i373056994!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=85164" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -195px; top: 133px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6438!3i8789!4i256!2m3!1e0!2sm!3i373056994!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=48099" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 61px; top: -123px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6439!3i8788!4i256!2m3!1e0!2sm!3i373056994!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=89606" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 1341px; top: 133px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6444!3i8789!4i256!2m3!1e0!2sm!3i373056538!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=104909" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -195px; top: 389px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6438!3i8790!4i256!2m3!1e0!2sm!3i373056994!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=7636" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 1341px; top: -123px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6444!3i8788!4i256!2m3!1e0!2sm!3i373056538!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=68888" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -195px; top: -123px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6438!3i8788!4i256!2m3!1e0!2sm!3i373056994!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=12078" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 1341px; top: 389px; transition: opacity 200ms ease-out;"><img src="http://maps.google.com/maps/vt?pb=!1m5!1m4!1i14!2i6444!3i8790!4i256!2m3!1e0!2sm!3i373000000!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=32287" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 2; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 3; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 4; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"><div style="cursor: default; position: absolute; width: 247px; height: 51px; left: 215px; top: 15px; z-index: 15;"><div style="position: absolute; left: 0px; top: 0px;"><div style="width: 0px; height: 0px; border-right: 10px solid transparent; border-left: 10px solid transparent; border-top: 24px solid rgba(0, 0, 0, 0.0980392); position: absolute; left: 114px; top: 51px;"></div><div style="position: absolute; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0.2); border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; width: 247px; height: 51px;"></div><div style="border-top-width: 24px; position: absolute; left: 114px; top: 48px;"><div style="position: absolute; overflow: hidden; left: -6px; top: -1px; width: 16px; height: 30px;"><div style="position: absolute; left: 6px; background-color: rgb(255, 255, 255); transform: skewX(22.6deg); transform-origin: 0px 0px 0px; height: 24px; width: 10px; box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 6px;"></div></div><div style="position: absolute; overflow: hidden; top: -1px; left: 10px; width: 16px; height: 30px;"><div style="position: absolute; left: 0px; background-color: rgb(255, 255, 255); transform: skewX(-22.6deg); transform-origin: 10px 0px 0px; height: 24px; width: 10px; box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 6px;"></div></div></div><div style="position: absolute; left: 1px; top: 1px; border-radius: 2px; background-color: rgb(255, 255, 255); width: 245px; height: 49px;"></div></div><div class="gm-style-iw" style="top: 9px; position: absolute; left: 15px; width: 217px;"><div style="display: inline-block; overflow: auto; max-height: 269px; max-width: 654px;"><div style="overflow: auto;"><b>Loop, Inc.</b> 795 Park Ave, Suite 120<br>San Francisco, CA 94107</div></div></div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 10px; z-index: 10000; cursor: pointer;"><img src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><iframe style="visibility: hidden; z-index: 0; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"></iframe></div><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" href="https://maps.google.com/maps?ll=-13.010188,-38.465387&amp;z=14&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3" title="Click to see this area on Google Maps" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 66px; height: 26px; cursor: pointer;"><img src="http://maps.gstatic.com/mapfiles/api-3/images/google4.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 525px; top: 110px;"><div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div><div style="font-size: 13px;">Map data ©2017 Google</div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 263px; bottom: 0px; width: 121px;"><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Map Data</a><span>Map data ©2017 Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2017 Google</div></div><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 95px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/en-US_US/help/terms_maps.html" target="_blank" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a></div></div><div style="cursor: pointer; width: 25px; height: 25px; overflow: hidden; display: none; margin: 10px 14px; position: absolute; top: 0px; right: 0px;"><img src="http://maps.gstatic.com/mapfiles/api-3/images/sv9.png" draggable="false" class="gm-fullscreen-control" style="position: absolute; left: -52px; top: -86px; width: 164px; height: 175px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_new" title="Report errors in the road map or imagery to Google" href="https://www.google.com/maps/@-13.0101876,-38.4653866,14z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Report a map error</a></div></div><div class="gmnoprint gm-bundled-control" draggable="false" controlwidth="28" controlheight="55" style="margin: 10px; user-select: none; position: absolute; left: 0px; top: 0px;"><div class="gmnoprint" controlwidth="28" controlheight="55" style="position: absolute; left: 0px; top: 0px;"><div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 28px; height: 55px;"><div title="Zoom in" style="position: relative; width: 28px; height: 27px; left: 0px; top: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img src="http://maps.gstatic.com/mapfiles/api-3/images/tmapctrl.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div></div><div style="position: relative; overflow: hidden; width: 67%; height: 1px; left: 16%; background-color: rgb(230, 230, 230); top: 0px;"></div><div title="Zoom out" style="position: relative; width: 28px; height: 27px; left: 0px; top: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img src="http://maps.gstatic.com/mapfiles/api-3/images/tmapctrl.png" draggable="false" style="position: absolute; left: 0px; top: -15px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div></div></div></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" controlwidth="28" controlheight="28" style="margin: 10px; user-select: none; position: absolute; bottom: 42px; right: 28px;"><div class="gm-svpc" controlwidth="28" controlheight="28" style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; border-radius: 2px; width: 28px; height: 28px; cursor: url(&quot;http://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;) 8 8, default; position: absolute; left: 0px; top: 0px;"><div style="position: absolute; left: 1px; top: 1px;"></div><div style="position: absolute; left: 1px; top: 1px;"><div aria-label="Street View Pegman Control" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px;"><img src="http://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -26px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div aria-label="Pegman is on top of the Map" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="http://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -52px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div aria-label="Street View Pegman Control" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="http://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -78px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div><div class="gmnoprint" controlwidth="28" controlheight="0" style="display: none; position: absolute;"><div title="Rotate map 90 degrees" style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; cursor: pointer; background-color: rgb(255, 255, 255); display: none;"><img src="http://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4.png" draggable="false" style="position: absolute; left: -141px; top: 6px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div class="gm-tilt" style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; top: 0px; cursor: pointer; background-color: rgb(255, 255, 255);"><img src="http://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4.png" draggable="false" style="position: absolute; left: -141px; top: -13px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div><div class="gmnoprint" style="margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 48px; top: 0px;"><div class="gm-style-mtc" style="float: left;"><div draggable="false" title="Show street map" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; -webkit-background-clip: padding-box; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; min-width: 22px; font-weight: 500;">Map</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; position: absolute; left: 0px; top: 29px; text-align: left; display: none;"><div draggable="false" title="Show street map with terrain" style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden; display: none;"><img src="http://maps.gstatic.com/mapfiles/mv/imgs8.png" draggable="false" style="position: absolute; left: -52px; top: -44px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;"></div></span><label style="vertical-align: middle; cursor: pointer;">Terrain</label></div></div></div><div class="gm-style-mtc" style="float: left;"><div draggable="false" title="Show satellite imagery" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(86, 86, 86); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; -webkit-background-clip: padding-box; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; border-left: 0px; min-width: 40px;">Satellite</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; position: absolute; right: 0px; top: 29px; text-align: left; display: none;"><div draggable="false" title="Show imagery with street names" style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden;"><img src="http://maps.gstatic.com/mapfiles/mv/imgs8.png" draggable="false" style="position: absolute; left: -52px; top: -44px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;"></div></span><label style="vertical-align: middle; cursor: pointer;">Labels</label></div></div></div></div><div draggable="false" class="gm-style-cc" style="position: absolute; user-select: none; height: 14px; line-height: 14px; right: 166px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><span>500 m&nbsp;</span><div style="position: relative; display: inline-block; height: 8px; bottom: -1px; width: 54px;"><div style="width: 100%; height: 4px; position: absolute; left: 0px; top: 0px;"></div><div style="width: 4px; height: 8px; left: 0px; top: 0px; background-color: rgb(255, 255, 255);"></div><div style="width: 4px; height: 8px; position: absolute; background-color: rgb(255, 255, 255); left: 0px; bottom: 0px;"></div><div style="position: absolute; background-color: rgb(102, 102, 102); height: 2px; left: 1px; bottom: 1px; right: 1px;"></div><div style="position: absolute; width: 2px; height: 6px; left: 1px; top: 1px; background-color: rgb(102, 102, 102);"></div><div style="width: 2px; height: 6px; position: absolute; background-color: rgb(102, 102, 102); bottom: 1px; right: 1px;"></div></div></div></div></div></div></div>
+</div>
+
+</div>
+</div>
+</section>
+<!-- BEGIN COPYRIGHT -->
+<div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <p>
+                    <span class="margin-right-10">© 2016 Emirates Guide, All Rights Reserved.</span>
+
+                </p>
+            </div>
+            <div class="col-md-4 col-sm-4 ventureBy">
+                <p href="#">A Venture by Webtech FZE</p>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <ul class="social-footer">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dropbox"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>

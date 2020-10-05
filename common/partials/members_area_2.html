@@ -1,0 +1,110 @@
+<wz-step>
+<div class="col-md-9">
+
+                <div class="heading_membersArea">
+                <div class="row">
+                    <div class="col-md-5 no-padding">
+                        <div class="outline"></div>
+                    </div>
+                    <div class="col-md-2">
+                        <h2>Services</h2>
+                    </div>
+                    <div class="col-md-5 no-padding">
+                        <div class="outline"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux </p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+            </div>
+
+                    <div class="members_formWrap">
+
+                        <div class="col-md-6 no-padding">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Service Title 1</label>
+                                    <input class="form-control" type="text" placeholder="Enter text here" ng-model="services_info.service_title_1">
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Description 1</label>
+                                    <textarea rows="4" class="form-control" type="text" placeholder="Enter text here" ng-model="services_info.service_description_1"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Upload Image 1</label><br/>
+                                    <span class="btn btn-default" ngf-pattern="'image/*'" ngf-accept="'image/*'" ngf-select="set_service_photos($files,0)">
+                                    Choose File</span>
+                                </div>
+                                <div class="row" ng-if="services_info.service_image_1">
+                                    <div class="row">Selected Image 1<br/></div>
+                                    <image ngf-src="services_info.service_image_1" style="width: 30%;height: auto;" />
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="col-md-6 no-padding">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Service Title 2</label>
+                                    <input class="form-control" type="text" placeholder="Enter text here" ng-model="services_info.service_title_2">
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Description 2</label>
+                                    <textarea rows="4" class="form-control" type="text" placeholder="Enter text here" ng-model="services_info.service_description_2"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="form-group">
+
+                                        <label>Upload Image 2</label><br/>
+                                    <div class="selectFile">
+                                        <span class="btn btn-default" ngf-pattern="'image/*'" ngf-accept="'image/*'" ngf-select="set_service_photos($files,1)">
+                                    Choose File</span>
+                                    </div>
+
+                                </div>
+                                <div class="row" ng-if="services_info.service_image_2">
+                                <div class="row">Selected Image 2<br/></div>
+                                    <image ngf-src="services_info.service_image_2" style="width: 30%;height: auto;" />
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <div class="buttons">
+                                    <button class="saveBtn" ng-click="save_progress(2)">Save</button>
+                                    <button class="nxtBtn" ng-click="move_next(3)">Next</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+            </div>
+            </wz-step>

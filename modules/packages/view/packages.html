@@ -1,0 +1,103 @@
+﻿
+<ng-include src="'./common/partials/header.html'"></ng-include>
+
+<!---heading section-->
+    <div class="container-fluid Grey_areaTop">
+
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <h1>Packages</h1>
+            </div>
+
+
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Packages</li>
+                </ol>
+            </div>
+
+
+    </div>
+<!---END heading section-->
+
+<!---Business List-->
+
+    <!----BannerBusiness-->
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <div class="col-md-12 no-padding">
+
+                    <div class="BusinessList_Banner">
+
+                        <h1>Create Your Business Listing</h1>
+                            <p>You will find out that YOUR business is growing as a direct result of your relationship with Emirates Guide Business Directory. We offer an integrated approach to online marketing for businesses in Emirates Guide. The website allows visitors to review and recommend businesses and products that they have used . Emirates Guide is an easy way for your business to connect with more customers.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    <!----End BannerBusiness-->
+
+    <!--Packages-->
+<div class="container-fluid listBgColor">
+        <div class="container">
+
+             <div class="packages_Container">
+
+                 <div class="row">
+                     <div class="col-md-4" ng-repeat="plan in plans">
+<!-- activeBox -->
+                         <div class="packageBox" ng-click="select_plan(plan)" ng-class="{'activeBox':selected_plan.id==plan.id}">
+
+                             <div class="pkg_header">
+
+                                 <h2>{{plan.package_plan_title}}</h2>
+                                 <h3>{{plan.package_plan_subtitle}}</h3>
+                             </div>
+
+                             <div class="price_box">
+                             <h3>{{plan.package_plan_fee}}</h3>
+                                 <!-- <h3>$<span class="bigNmbr">5</span>.49</h3> -->
+                                 <span>Per Month</span>
+
+                             </div>
+
+                             <div class="listPkg">
+
+                                 <ul>
+                                     <li ng-repeat="feature in plan.features">  {{feature.feature_title}} </li>
+                                     
+                                     <p>{{plan.short_description}}</p>
+                                 </ul>
+
+                             </div>
+
+                             <div class="pkg_buttonSignup">
+
+                                 <!--<button onclick="window.location.href='register.html?pakage=beginner'">Sign Up</button>-->
+                                 <button ng-click="select_plan(plan, true)">Sign Up</button>
+
+                             </div>
+
+
+                         </div>
+
+
+                     </div>
+                     
+
+                 </div>
+
+             </div>
+
+        </div>
+</div>
+    <!-- Start Packages -->
+	
+    <!-- END PAGE LEVEL JAVASCRIPTS -->
